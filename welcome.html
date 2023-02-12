@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+        <title>Gabe's first website!</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            body {
+                background-color: rgb(175, 0, 152);
+            }
+
+            section {
+                background-color:whitesmoke;
+                padding: 3px;
+                border-radius: 10px;
+            }
+
+            img {
+                border-radius: 50px;
+                padding-right: 10px;
+            }
+
+            nav {
+                position: absolute;
+                left: 70%;
+                margin: 20px;
+            }
+
+            nav li {
+                list-style-type: none;
+                display: inline-block;
+            }
+
+            nav a, a {
+                text-decoration: none;
+                padding: 15px;
+                margin: 15px;
+            }
+
+            nav a {
+                color: black;
+            }
+
+            nav a:hover, a:hover {
+                background-color:black;
+                color: whitesmoke;
+            }
+
+            header {
+                border-radius: 10px;
+                display:flexbox;
+                justify-content: center;
+                align-items: center;
+                height: 30%;
+                background-image: url("background2.png");
+                background-repeat: round;
+                padding: 10%;
+                margin: 10px;
+                color: whitesmoke;
+                text-shadow: 1px -1px black;
+            }
+
+            a {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 12px;
+            }
+            
+            header {
+                font-family: 'Satisfy', cursive;
+                margin-top: 5px;
+            }    
+            
+            table {
+                display:flexbox;
+                align-items:center;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            thead, h3 {
+                font-family: 'Righteous', cursive;
+            }
+
+            tbody, p, #otherprojects li {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+
+            tbody td p {
+                margin: 10px;
+                padding: 10px;
+            }
+
+            #otherprojects {
+                display: flex;
+                margin: 48px;
+                padding: 10px;
+            }
+
+            #otherprojects article, #otherprojects article img {
+                margin: 10px;
+            }
+
+            td iframe {
+                position: absolute;
+                bottom: 0px;
+                right: 14%;
+            }
+
+            h3 {
+                border-bottom: 2mm groove rgba(220, 50, 197, 0.555);
+            }
+
+            #topbtn {
+                color: whitesmoke;
+            }
+        </style>
+    </head>
+    <body>
+        <nav id="nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#otherprojects">YT and Other Projects</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>This is my first website!</h1>
+            <p>Have fun and look around!</p>
+        </header>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">
+                            <h3>Why I'm Building this Site</h3>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Teaching myself to code is fun enough, but I've decided<br> to apply what I've learned from
+                                Codecademy and build my<br> own website! This is my first attempt at doing so<br> in many years! I
+                                cheated a little with the addition of<br> borrowed embeded iframes from YouTube and Spotify that I don't<br> fully
+                                understand yet. This has been a fun experience through<br> and through!
+                            </p>
+                        </td>
+                        <td>
+                            <iframe width="30%" height="315" src="https://www.youtube.com/embed/SpKrXeH79aE?controls=0" 
+                            title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>Sorry! This format must not be supported on your device!</iframe>
+                        </td>  
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="otherprojects">
+            <article>
+                <h3>The Channel</h3>
+                <p>I've been dabbling on and off of YouTube for years, but I've recently decided to hunker down
+                    and commit to growing my following! On my channel, you can find fun challenges that can boost
+                    your creativity, discussions on songwriting and music making, and explorations on learning a
+                    new language.
+                </p>
+                <p>You can also find a new series of videos I've been trying to toy with for months now!
+                    <b>Recall the Mall!</b> is a lighthearted improv interview type of video where I interrogate
+                    unsuspecting victims at the local Governer's Square Mall in my hometown of Clarksville. Enjoy
+                    intense questions such as:
+                </p>
+                <ul>
+                    <li>Would you kill baby Hitler?</li>
+                    <li>Would you sneak into a concert without a ticket if you knew you wouldn't be cuaght?</li>
+                    <li>Is it ethical to pirate music in the current era? Is it necessary?</li>
+                    <li>Would you eat the last slice of pizza if no one was looking?</li>
+                </ul>
+                <p>and more dumb questions with potentially interesting answers!</p>
+                <a href="https://www.youtube.com/channel/UCsKBkYvbZfX1cOU8xc8AH4Q" target="_blank">YouTube</a>
+            </article>
+            <article>
+                <h3>The Music</h3>
+                <p>I've been writing music ever since Middle school, but never really started produciing until Sophomore
+                    year of High school. I developed an appreciation and passion for mobile music production and lo-fi 
+                    sound design that's since influenced my songwriting style greatly.
+                </p>
+                <p>In the playlist below, you can find a faux 'This Is' Spotify playlist highlighting some of the trakcs
+                    I feel deserve their time in the spotlight. I've put my absolute bare maximum into each of these songs,
+                    and I hope you have as much fun listening to them as I did creating them!
+                </p>
+                <iframe style="border-radius:12px" 
+                src="https://open.spotify.com/embed/playlist/6kphV2yzyYzMK63Cbhe6WS?utm_source=generator" 
+                width="100%" height="152" frameBorder="0" allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">Sorry! This format must not be supported on your device!</iframe>
+            </article>
+            <article>
+                <h3>The Programming</h3>
+                <p>In 2015, I had a major open-heart surgery that left me unable to leave my bed for days. It was being
+                    on my computer and phone that kept me sane, and the rush of excitement when I leanred how to make
+                    a button for a website interactive has stuck with me ever since! Learning a language to solve a
+                    problem is like what my brain was built to do!
+                </p>
+                <p>Since then, I've been programming on and off - mostly off - for the past 8 years. It's my hope
+                    that this excercise re-acquaints me with front-end design so I can finally begin building my
+                    back-end reportoire.
+                </p>
+                <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                width="100%"/>
+                <a href="https://codepen.io/cestgemoto-the-scripter" target="_blank">CodePen</a>
+            </article>
+        </section>
+        <a id="topbtn" href="#nav">Back to the top</a>
+    </body>
+</html>
